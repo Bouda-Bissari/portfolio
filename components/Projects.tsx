@@ -1,7 +1,11 @@
 import { Code, Package, Truck, ShoppingBag, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
-import { poppins } from "@/app/page";
+import { Poppins } from "next/font/google";
 
+const poppins = Poppins({
+  weight: "800",
+  subsets: ["latin"],
+});
 // Définition des projets
 const projects = [
   {

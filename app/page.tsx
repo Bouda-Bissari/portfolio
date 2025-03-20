@@ -7,11 +7,11 @@ import Projects from "@/components/Projects";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import React from "react";
 import Techno from "@/components/Techno";
-export const poppins = Poppins({
+const poppins = Poppins({
   weight: "800",
   subsets: ["latin"],
 });
-export const geistSans = Geist({
+const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
@@ -28,7 +28,7 @@ const Home = () => {
       <div className="grid place-content-center place-items-center py-4">
         <Navbar />
       </div>
-    
+
       <div className=" w-full lg:pl-32 lg:pr-4 px-4  mt-4 flex flex-col md:flex-row md:gap-x-3 justify-center items-center md:items-stretch">
         <div className="h-full md:sticky md:top-0">
           <ProfilCard />
