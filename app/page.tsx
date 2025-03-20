@@ -13,11 +13,6 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 const Home = () => {
   return (
     <div className={`h-full  w-full bg-[#151312]  ${geistSans.className}`}>
