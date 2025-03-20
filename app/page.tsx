@@ -4,7 +4,7 @@ import About from "@/components/About";
 import Navbar from "@/components/NavBar";
 import ProfilCard from "@/components/ProfilCard";
 import Projects from "@/components/Projects";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import React from "react";
 import Techno from "@/components/Techno";
 
