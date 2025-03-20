@@ -1,6 +1,16 @@
-import { geistSans, poppins } from "@/app/page";
 import React from "react";
 import { motion } from "framer-motion";
+import { Geist, Poppins } from "next/font/google";
+
+
+const poppins = Poppins({
+  weight: "800",
+  subsets: ["latin"],
+});
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
 const About = () => {
   return (
