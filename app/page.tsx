@@ -6,7 +6,6 @@ import ProfilCard from "@/components/ProfilCard";
 import Projects from "@/components/Projects";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import React from "react";
-import { Icon } from "@iconify/react";
 import Techno from "@/components/Techno";
 export const poppins = Poppins({
   weight: "800",

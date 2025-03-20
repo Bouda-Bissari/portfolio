@@ -1,5 +1,3 @@
-import { geistMono } from "@/app/page";
-import { Geist } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";

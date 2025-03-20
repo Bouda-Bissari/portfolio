@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { Poppins } from "next/font/google";
+
 
 import {
   Tooltip,
@@ -11,17 +10,13 @@ import {
 } from "@/components/ui/tooltip";
 import {
   ArrowRightIcon,
-  Bold,
   Facebook,
   Instagram,
-  Italic,
   Mail,
   MessageCircle,
   SendHorizontal,
-  Underline,
 } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
